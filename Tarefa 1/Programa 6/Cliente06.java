@@ -44,7 +44,7 @@ public class Cliente06 {
 				dependentes = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o numero de dependentes","Dependentes",JOptionPane.QUESTION_MESSAGE));
 				dataOutputStream.writeInt(dependentes);
 				dataOutputStream.flush();
-					break;
+				break;
 			}catch (NumberFormatException e){
 				JOptionPane.showMessageDialog(null, "Formato Errado! Tente Novamente\n(Ex: 2)", "Erro", JOptionPane.ERROR_MESSAGE);
 			}
